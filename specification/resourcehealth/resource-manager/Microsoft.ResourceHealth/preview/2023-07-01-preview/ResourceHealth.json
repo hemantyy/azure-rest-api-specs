@@ -1196,7 +1196,19 @@
             },
             "impactType": {
               "type": "string",
-              "description": "The type of the impact"
+              "description": "The type of the impact, mostly used by Planned maintenance events"
+            },
+            "maintenanceId": {
+              "type": "string",
+              "description": "Unique Id for Planned maintenance event"
+            },
+            "maintenanceType": {
+              "type": "string",
+              "description": "The type of Planned maintenance event"
+            },
+            "argQuery": {
+              "type": "string",
+              "description": "ARG Query to fetch the affected resources from their existing ARG locations"
             }
           }
         }
